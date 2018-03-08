@@ -1,0 +1,21 @@
+$topnav-background-color: #f0ad4e;
+:host {
+    display: block;
+}
+.home-page {
+    .rounded-btn{
+        -webkit-border-radius: 5px;
+                border-radius: 5px;
+        color: rgba(255,255,255,0.8);
+        background: $topnav-background-color;
+        border: 2px solid rgba(255,255,255,0.8);
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0 5px;
+    }
+    .rounded-btn:hover,.rounded-btn:focus,.rounded-btn:active,.rounded-btn:visited{
+        color: rgba(255,255,255,1);
+        border: 2px solid rgba(255,255,255,1);
+        outline: none;
+    }
+}

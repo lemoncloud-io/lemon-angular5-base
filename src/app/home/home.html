@@ -1,0 +1,11 @@
+<div class="home-page" [@routerTransition]>
+    <div class="row">
+        <div class="col-md-4 offset-md-4 m-t-5">
+            <h2>Home</h2>
+            <a class="btn rounded-btn" [routerLink]="['about']">about</a>
+            <!-- content area -->
+            <router-outlet></router-outlet>
+            <!-- //content area -->
+        </div>
+    </div>
+</div>
